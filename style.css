@@ -1,0 +1,78 @@
+/* ----------メニューバーの設定---------- */
+
+nav ul {
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  text-align: center;
+}
+
+nav li {
+  display: table-cell;
+  margin: 0 30px;
+  width: 10%;
+  line-height: 3; /*高さ*/
+  background-color: #333; /* 背景色の指定*/
+  font-size: 16px;
+  transition: opacity 0.25s;
+}
+
+nav li:hover {
+  opacity: 0.7;
+}
+
+nav a {
+  display: block; /*ブロック全体に当たり判定*/
+  text-decoration: none; /*下線の除去*/
+  color: #fff;
+}
+
+/* ----------ページタイトルの設定---------- */
+
+#pagetitle {
+  display: table;
+  padding: 0px;
+  margin: 30px auto 30px auto;
+  width: 90%;
+  font-size: 30px;
+  background-color: #404040;
+  text-align: center;
+}
+
+#pagetitle p {
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 0.75;
+}
+
+/* ----------本文の設定---------- */
+
+#maintext{
+  margin: 0px 80px 0px 80px;
+}
+
+h2 {
+  padding: 0.25em 0.5em;
+  /*上下 左右の余白*/
+  color: #494949;
+  /*文字色*/
+  background: transparent;
+  /*背景透明に*/
+  border-left: solid 5px #7db4e6;
+  /*左線*/
+}
+
+/* ----------参考サイト----------
+
+https: //style.potepan.com/articles/21440.html
+https: //it-biz.online/web-design/nav/
+https: //wp-load.in/html-css/html-menu-bar
+https: //www.e-sanwa.co.jp/sbs/column/20180323/
+https: //ginneko-atelier.com/blogs/entry181/
+https: //blog.codecamp.jp/css-hover-6
+https: //style.potepan.com/articles/20776.html
+https: //saruwakakun.com/html-css/reference/h-design
+https: //web-camp.io/magazine/archives/97616
+https: //webukatu.com/wordpress/blog/11267/
+https: //www.freecodecamp.org/japanese/news/how-to-use-html-to-open-link-in-new-tab/
